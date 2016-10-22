@@ -20,7 +20,7 @@ def init(self):
     print("Init")
     print(os.getcwd())
     try:
-        stream = open("D://Blends/2D Game/poi5.dat","r")
+        stream = open("D://Blends/2D Game/map.dat","r")
         poi_data = stream.readlines()
         stream.close()
     except IOError as e:
